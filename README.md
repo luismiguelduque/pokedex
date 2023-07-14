@@ -5,20 +5,30 @@
 # Run dev mode
 
 1. Clone repository
+
 2. Execute
 ```
 yarn install
 ```
+
 3. Install Nest CLI
 ```
 npm i -g @nestjs/cli
 ```
+
 4. Run database
 ```
 docker-compose up -d
 ```
 
-5. Run seed
+5. Create __.env__ file based on __.env.template__ file
+
+6. Run project
+```
+yarn start:dev
+```
+
+7. Run seed
 ```
 http://localhost:3000/api/v2/seed
 ```
